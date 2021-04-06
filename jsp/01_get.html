@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>chapter05.입력 양식 태그와 공간 분할 태그/GET 방식</title>
+<!-- 
+  <from name="입력 폼 이름" action="웹 프로그램 페이지" method="전달 방식" 
+            <input type="폼 모양과 기능" name="입력 폼 변수" value="전달 값">
+            </from> -->
+
+  <!-- 데이터를 서버로 보낼때의 2가지 방식(method) get방식, post방식 -->
+  <!-- https://search.naver.com/search.naver?where=nexearch&sm=top_hty&fbm=0&ie=utf8&query=%EB%84%A4%EC%9D%B4%EB%B2%84+%EC%A7%84%ED%95%B4%EA%B5%B0%ED%95%AD%EC%A0%9C -->
+  <!-- get방식 데이터가 url에 다보인다.       ?뒤에부분을 쿼리스트링이라 한다. &로 정보를 구분하고 끝에 진해군항제라는 검색값이 보인다. -->
+  <!-- https://search.naver.com/search.naver-->
+  <!-- post방식 데이터가 url에 안보인다.     비밀번호나 알리면 안되는 것들을 post방식으로 보낸다. -->
+
+  <!-- action을 지정해줘야한다. 다음동작/클릭하면 어떻게 될지 -->
+
+</head>
+<body>
+  <h2>get 방식으로 데이터 전송</h2>
+  <form method="POST" action="01_getdata.jsp">
+    <p>이름 : <input type="text" name="name"></p>
+    <p>전공 : <input type="text" name="major"></p>
+    <p></p>
+    <input type="submit" value="전송">
+    <input type="reset" value="다시작성">
+  </form>
+</body>
+</html>

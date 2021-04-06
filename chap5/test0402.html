@@ -1,0 +1,114 @@
+
+
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+
+  <title>Document</title>
+</head>
+<body>
+  <form method="POST" action="test0402.jsp">
+    <h2> 다음 중 아이유의 신곡을 고르시오.</h2>
+    
+     
+    <input type="radio" name="song" checked>봄,사랑,벚꽃말고 <img src="/chap5/springloveflower.jpg" style="width: 5cm; height: 5cm;"> <br>
+    <input type="radio" name="song" >팔레트 <img src="/chap5/palete.jpg" style="width: 5cm; height: 5cm;"> <br>
+    <input type="radio" name="song" >밤편지 <img src="/chap5/nightletter.jpg" style="width: 5cm; height: 5cm;"> <br>
+    <input type="radio" name="song" >라일락 <img src="/chap5/lalac.jpg" style="width: 5cm; height: 5cm;"> <br>
+    <input type="radio" name="song" >좋은 날 <img src="/chap5/goodday.jpg" style="width: 5cm; height: 5cm;"> <br>
+
+    <br>
+    <hr>
+  
+    
+    <h3> 다음 중 아이유가 좋은 날을 발매했을 때의 나이는?</h3>
+    <section>
+      <article>
+        <ol>
+          <li><input type="checkbox" name="age" value="24" >24살</li>
+          <li><input type="checkbox" name="age" value="21">21살</li>
+          <li><input type="checkbox" name="age" value="16">16살</li>
+          <li><input type="checkbox" name="age" value="18">18살</li>
+          <li><input type="checkbox" name="age" value="20">20살</li>
+        </ol>
+      
+      </article>
+    </section>
+    
+    <br>
+    <hr>
+  
+
+    <h3>다음 중 아이유의 본명은?</h3>
+    <button style="width: 1cm; height: 1cm;" type="button" onclick="alert('정답입니다')"></button>
+    이지금
+    <button style="width: 1cm; height: 1cm;" type="button" onclick="alert('틀렸습니다ㅜㅜ')"></button>
+    아이유
+    <button style="width: 1cm; height: 1cm;" type="button" onclick="alert('틀렸습니다ㅜㅜ')"></button>
+    이미래
+    <button style="width: 1cm; height: 1cm;" type="button" onclick="alert('틀렸습니다ㅜㅜ')"></button>
+    이과거
+  
+    <br>
+    <hr>
+  
+
+    <h3>다음 중 아이유가 박명수와 부른 노래는?</h3>
+    <select style="width: 10cm;" name="with" multipie>
+      <option value="1" selected>좋은 날</option>
+      <option value="2" selected>레옹</option>
+      <option value="3" selected>너랑 나</option>
+      <option value="4" selected>분홍신</option>
+      <option value="5" selected>삐삐</option>
+    </select>
+
+    <br>
+    <hr>
+
+    <h2>다음 중 아이유가 2017년도에 부른 노래가 아닌것은?</h2>
+    <select style="width: 15cm;" name="2017song">
+      <optgroup label="2017" style="font-size: 15pt">
+        <option>이름에게</option>
+        <option>밤편지</option>
+        <option>팔레트</option>
+        <option>사랑이 잘</option>
+        <option>잔소리</option>
+      </optgroup>
+    </select>
+
+    <br>
+    <hr>
+
+    <h3>다음 중 아이유의 생일은?</h3>
+    아이유 생일 : <input type="date" name="birthday" value="1993,05,16">
+
+    <br>
+    <hr>
+    <h3>다음 중 아이유가 제일 좋아하는 색은?</h3>
+    <input type="color" name="color" value=#8977ad>
+    <input type="color" name="color" value=#ffffff>
+    <input type="color" name="color" value="123456">
+    <input type="color" name="color" value="654321">
+    
+      <br>
+      <hr>
+     
+      <input type="range" name="point" min="0" max="100" width="1000" value 100>
+      <br>
+      <hr>
+      email : <input type="email" name="my email" value="dlfxo777@naver.com" readonly>
+      <br>
+      <hr>
+      url : <input type="url" name="homepage" placeholder="IT-adress" autocmplete="on">
+      <br>
+      <hr>
+      <br><br><br>
+      <meter min="0" max="100" optimum="50" value="100"></meter>
+    
+
+      <input style=width: 10cm type="submit">
+    </form>
+  
+</body>
+</html>
