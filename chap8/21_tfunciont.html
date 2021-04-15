@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <style>
+    div{
+      width: 100px;height: 50px;
+      background-color: red;
+      border: 1px solid black;
+      transition: width 10s;
+    }
+    div:hover{width: 400px;}
+    #id1{transition-timing-function: linear;}
+    #id2{transition-timing-function: ease;}
+    #id3{transition-timing-function: ease-in;}
+    #id4{transition-timing-function: ease-out;}
+    #id5{transition-timing-function: ease-in-out;}
+    #id6{transition-timing-function: cubic-bezier{0.1,0.0,0.1,1.0};}
+  </style>
+  <title>Document</title>
+</head>
+<body>
+  <div id="div1" style="top: 100px;">linear</div>
+  <div id="div2" style="top: 100px;">ease</div>
+  <div id="div3" style="top: 100px;">ease-in</div>
+  <div id="div4" style="top: 100px;">ease-out</div>
+  <div id="div5" style="top: 100px;">ease-in-out</div>
+  <div id="div6" style="top: 100px;">cubic-bezier</div>
+</body>
+</html>
