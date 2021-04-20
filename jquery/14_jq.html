@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $("out").click(function(){
+                    $("img").fadeout('slow');
+                });
+                $("in").click(function(){
+                    $("img").fadein("slow");
+                });
+                $("toggle").click(function(){
+                    $("img").fadetoggle("slow");
+                });
+                $("to50").click(function(){
+                    $("img").fadeto('slow',0.1);
+                });
+                $("to50").click(function(){
+                    $("img").fadeto('slow',0.1);
+                });
+                $("to50").click(function(){
+                    $("img").fadeto('slow',0.1);
+                });
+            });
+        </script>
+        <title></title>
+    </head>
+    <body>
+        <button id="out">fadeout</button>
+        <button id="out">fadein</button>
+        <button id="out">fadetoggle</button>
+        <button id="out">opacity 50%</button>
+        <button id="out">opacity 10%</button>
+        <button id="out">opactiy 100%</button>
+        <p></p>
+        <img src="../이미지/20170720_hiphop-6.jpg">
+    
+    </body>
+</html>

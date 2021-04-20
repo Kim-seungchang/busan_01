@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <style>
+            .moving{
+                border: 1px solid #000;
+                margin: 20px auto 0 auto;
+                text-align: right;
+            }
+            .moving img{
+                cursor: pointer;
+            }
+        </style>
+        <title></title>
+    </head>
+    <body>
+        <div class="init">
+            <button type="button" onclick="back('.moving img')"></button>
+            <br>
+        </div>
+    <div class="moving">
+        <img onclick="move(this,6000") src="../이미지/20170720_hiphop-6.jpg"><br>
+        <img onclick="move(this,3000") src="../이미지/5a94d2982000003800eb009c.jpeg"><br>
+        <img onclick="move(this,1000") src="../이미지/sale.png"><br>
+
+    </div>
+    </body>
+</html>
